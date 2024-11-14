@@ -25,7 +25,7 @@ function Project() {
                   {proj.name}
                 </span>
                 <p className="text-stone-400">{proj.des}</p>
-                <span className="grid grid-cols-5 gap-1 mt-2">
+                <span className="grid grid-cols-4 md:grid-cols-5  gap-1 mt-2">
                   {Array.isArray(proj.tech)
                     ? proj.tech.map((tech, index) => (
                         <span
