@@ -11,7 +11,7 @@ function App() {
       <Navbar />
 
       <Home />
-      <footer className="h-10 flex items-center justify-center bg-purple-900">
+      <footer className="h-10 w-[100%] flex items-center justify-center bg-purple-900">
         Created by: Michael Yalon
       </footer>
     </div>

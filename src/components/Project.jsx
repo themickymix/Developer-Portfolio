@@ -20,7 +20,7 @@ function Project() {
                 src={proj.img}
                 alt={proj.name}
               />
-              <div className="w-96">
+              <div className="w-[100%]">
                 <span className="font-bold text-md text-slate-200 mb-0">
                   {proj.name}
                 </span>
