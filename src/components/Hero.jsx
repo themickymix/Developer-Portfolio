@@ -34,19 +34,28 @@ function Hero() {
           </span>
         </div>
         <div className="flex gap-3 mt-5 ">
-          <a href="https://www.facebook.com/michaelyalonofficial">
+          <a
+            href="https://www.facebook.com/michaelyalonofficial"
+            itemProp="url"
+            target="_blank">
             <span className="flex place-content-center gap-2 bg-[#171E27] hover:bg-[#0f1319] cursor-pointer backdrop-blur-md py-2 px-5  rounded-full animate-fade-left animate-once animate-duration-[2000ms] animate-delay-500">
               <img className="w-6 invert" src={facebook} alt="facebook" />
               Facebook
             </span>
           </a>
-          <a href="https://github.com/themickymix">
+          <a
+            href="https://github.com/themickymix"
+            itemProp="url"
+            target="_blank">
             <span className="flex place-content-center gap-2 bg-[#171E27] hover:bg-[#0f1319] cursor-pointer backdrop-blur-md py-2 px-5  rounded-full animate-fade-left animate-once animate-duration-[2000ms] animate-delay-[1000ms]">
               <img className="w-6 invert" src={github} alt="github" />
               Github
             </span>
           </a>
-          <a href="https://www.linkedin.com/in/michaelyalon/">
+          <a
+            href="https://www.linkedin.com/in/michaelyalon/"
+            itemProp="url"
+            target="_blank">
             <span className="flex place-content-center gap-2 bg-[#171E27] hover:bg-[#0f1319] cursor-pointer backdrop-blur-md py-2 px-5  rounded-full animate-fade-left animate-once animate-duration-[2000ms] animate-delay-[1500ms]">
               <img className="w-6 invert" src={linkedin} alt="linkedin" />
               LinkedIn

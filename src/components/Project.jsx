@@ -1,10 +1,9 @@
 import React from "react";
 import FadeLeftOnScroll from "./FadeLeftOnScroll";
-import {projects} from '../constant.js'
-import eye from '../assets/svg/eye.svg'
-import github from '../assets/svg/github.svg'
+import { projects } from "../constant.js";
+import eye from "../assets/svg/eye.svg";
+import github from "../assets/svg/github.svg";
 function Project() {
-  
   return (
     <FadeLeftOnScroll>
       <h1>PROJECTS</h1>
@@ -39,7 +38,9 @@ function Project() {
                 <span className="w-full grid grid-cols-2 place-items-center cursor-pointer mt-8">
                   <a
                     className="flex gap-2 items-center font-bold text-purple-700 hover:text-purple-800"
-                    href={proj.view}>
+                    href={proj.view}
+                    itemProp="url"
+                    target="_blank">
                     <img
                       className="w-8"
                       style={{ filter: "brightness(0) invert(1)" }}
@@ -50,7 +51,9 @@ function Project() {
                   </a>
                   <a
                     className="flex gap-2 items-center font-bold text-purple-700 hover:text-purple-800"
-                    href={proj.code}>
+                    href={proj.code}
+                    itemProp="url"
+                    target="_blank">
                     <img
                       className="w-5"
                       style={{ filter: "brightness(0) invert(1)" }}
