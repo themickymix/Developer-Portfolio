@@ -40,6 +40,6 @@ export const projects = [
     des: "This project allows users to search for the latest movies and TV series using the TMDB API (The Movie Database API).",
     tech: ["React JS", "Tailwind", "TMDB API"],
     view: "https://filmapi-omega.vercel.app/",
-    code: "",
+    code: "https://github.com/themickymix/filmapi",
   },
 ];

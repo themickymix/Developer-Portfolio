@@ -9,7 +9,7 @@ function Project() {
     <FadeLeftOnScroll>
       <h1>PROJECTS</h1>
 
-      <div className="mt-5">
+      <div className="mt-5 w-fit">
         <div className="grid gap-2">
           {projects.map((proj) => (
             <span
