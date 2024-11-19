@@ -42,4 +42,13 @@ export const projects = [
     view: "https://filmapi-eight.vercel.app/",
     code: "https://github.com/themickymix/FILMAPI",
   },
+  {
+    id: 1,
+    name: "Potato Twist",
+    img: "/potatotwist.png",
+    des: "A business website built to meet a client's requirements, providing essential information about their small business in a professional and user-friendly format.",
+    tech: ["React JS", "Tailwind"],
+    view: "https://potatotwist.vercel.app/",
+    code: "https://github.com/themickymix/potatotwist",
+  },
 ];
