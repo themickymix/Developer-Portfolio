@@ -38,7 +38,7 @@ export const projects = [
     name: "MOVIE API",
     img: "/filmapi.png",
     des: "This project allows users to search for the latest movies and TV series using the TMDB API (The Movie Database API).",
-    tech: ["React JS", "Tailwind", "TMDB API"],
+    tech: ["React JS", "Tailwind CSS", "TMDB API", "DaisyUI"],
     view: "https://filmapi-eight.vercel.app/",
     code: "https://github.com/themickymix/FILMAPI",
   },
